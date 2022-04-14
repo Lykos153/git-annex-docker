@@ -34,7 +34,6 @@ jobs:
       id-token: write
 
     steps:
-      - run: echo $IMAGE_NAME
       - name: Checkout repository
         uses: actions/checkout@v3
 
